@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Welcome Begin */
+
+.welcome {
+    background: url('../../Assets/Home/strawberry_brioche.jpg');
+    background-size: cover;
+    background-position: center;
+
+
+    padding: 170px 0;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+    font-size: 20px;
+}
+
+.welcome * {
+    position: relative;
+    left: 15%;
+}
+
+.kin {
+    color: #ff008b;
+    font-family: "Manrope" Bold;
+
+    padding: 0;
+}
+
+.bakeshop {
+    color: white;
+    padding: 0;
+}
+
+
+/* Hours */
+
+.hours {
+    background: rgba(0, 0, 0, 0.35) url('../../Assets/Home/matcha_muffin.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+
+    padding: 48px 0;
+
+    color: white;
+}
+
+.hours h2 {
+    margin-bottom: 32px;
+}
+
+.hours p {
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+    position: relative;
+    text-align: left;
+
+    font-size: larger;
+}
+
+.bold {
+    font-weight: bold;
+    text-align: right;
+    padding-right: 15px;
+}
+
+
+/* Instagram */
+
+.instagram {
+    height: 300px;
+}
+

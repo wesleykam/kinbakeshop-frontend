@@ -1,0 +1,157 @@
+/* GENERAL STYLING */
+
+.info {
+    background-color: white;
+    border-radius: 10px;
+
+    padding: 40px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 16px;
+}
+
+.info p {
+    text-align: center;
+}
+
+.disclaimer {
+    text-align: left;
+
+    font: "Manrope";
+    font-weight: 800;
+    font-style: italic;
+    font-size: 16px;
+}
+
+/* RESPONSIVE LAYOUT */
+
+@media (max-width: 600px) {
+    .current-menu, 
+    .cafe-specials,
+    .mochi-donuts {
+        padding: 32px 20px;
+    }
+
+    .cafe-specials .info {
+        width: 100%;
+        left: 0;
+    }
+}
+
+@media (min-width: 600px) {
+
+    /* CURRENT MENU */
+    .current-menu {
+        padding: 50px 27%;
+    }
+
+    /* CAFE SPECIALS */
+    .cafe-specials {
+        padding: 62px 0;
+    }
+
+    .cafe-specials .info {
+        width: 35%;
+        left: 10%;
+    }
+
+    /* MOCHI DONUTS */
+    .mochi-donuts {
+        padding: 96px 0;
+    }
+
+    .mochi-donuts .info {
+        width: 30%;
+    }
+}
+
+/* CAFE MENU */
+
+.cafe-menu {
+    padding: 48px
+}
+
+.cafe-menu h2 {
+    color: #ff008b;
+    margin-bottom: 32px;
+}
+
+.cafe-menu ul {
+    list-style: none;
+
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* CURRENT MENU */
+
+.current-menu {
+    background: url('../../Assets/Menu/plain_brioche.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+/* CAFE SPECIALS */
+
+.cafe-specials {
+    background: #f5edd9 url('../../Assets/Menu/ube_drinks.jpg');
+    background-size: auto 165%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    overflow: clip;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cafe-specials .info {
+    align-items: normal;
+
+    position: relative;
+}
+
+.cafe-specials .info h2 {
+    text-align: left;
+    color: rgb(255, 0, 139);
+}
+
+.cafe-specials ul {
+    list-style: none;
+}
+
+.cafe-specials .disclaimer {
+    text-align: left;
+    color: rgb(128, 0, 68);
+}
+
+
+/* MOCHI DONUTS */
+.mochi-donuts {
+    background: rgba(0, 0, 0, 0.35) url('../../Assets/Menu/strawberry_mochi.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+
+}
+
+.mochi-donuts .info {
+    align-items: normal;
+
+    position: relative;
+    left: 15%;
+}
+
+.mochi-donuts .info * {
+    text-align: left;
+}
+
+
+
+
+
